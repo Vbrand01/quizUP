@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz APP</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="scripts/importSplide/splide.min.css">
+    <link rel="stylesheet" href="styles/reset.css">
+</head>
+
+<body>
+
+    <div id="header"></div>
+    <h2 class="title-page">Escolha e faça um quiz:</h2>
+    <nav class="nav-menu">
+        <a href="#series">Séries</a>
+        <a href="#filmes">Filmes</a>
+        <a href="#animes">Animes</a>
+    </nav>
+
+
+
+    <main>
+
+        <div class="cont"></div>
+        <div class="cont2"></div>
+
+        <br><br>
+
+        <div class="container ajust">
+            <h2 class="title-genero" id="series">Séries:</h2>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="splide" id="splideSeries">
+                        <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/series/wandinha.jpg" height="120px" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Wandinha</span>
+                                        <p class="job">8 perguntas para testar seus conhecimentos sobre a série!</p>
+                                        <button><a href="./telaQuizSeries/wandinha.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/series/tboys.jpg" height="120px" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>The Boys</span>
+                                        <p class="job">7 perguntas para testar seus conhecimentos sobre a série!</p>
+                                        <button><a href="./telaQuizSeries/tboys.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/series/greys.jpeg" height="120px" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Grey's Anatomy</span>
+                                        <p class="job">7 perguntas para testar seus conhecimentos sobre a série!</p>
+                                        <button><a href="./telaQuizSeries/greys.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/series/stranger2.png" height="120px" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Stranger Things</span>
+                                        <p class="job">7 perguntas para testar seus conhecimentos sobre a série!</p>
+                                        <button><a href="./telaQuizSeries/stranger.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/series/cobrakai.jpg" height="120px" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Cobra Kai</span>
+                                        <p class="job">7 perguntas para testar seus conhecimentos sobre a série!</p>
+                                        <button><a href="./telaQuizSeries/cobraKai.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/series/suits4.jpg" height="120px" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Suits</span>
+                                        <p class="job">7 perguntas para testar seus conhecimentos sobre a série!</p>
+                                        <button><a href="./telaQuizSeries/suits.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+<!-- 
+            <h2 class="title-genero" id="filmes">Filmes:</h2>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="splide" id="splideFilms">
+                        <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img" height="100%" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Wandinha</span>
+                                        <p class="job">8 perguntas para testar seus conhecimentos sobre a série!</p>
+                                        <button><a href="./telaQuiz/wandinha.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/tboys.jpg" height="100%" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>The Boys</span>
+                                        <p class="job">7 perguntas para testar seus conhecimentos sobre a série!</p>
+                                        <button><a href="./telaQuiz/tboys.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/greys.jpeg" height="100%" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Grey's Anatomy</span>
+                                        <p class="job">7 perguntas para testar seus conhecimentos sobre a série!</p>
+                                        <button><a href="./telaQuiz/greys.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/stranger2.png" height="100%" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Stranger Things</span>
+                                        <p class="job">7 perguntas para testar seus conhecimentos sobre a série!</p>
+                                        <button><a href="./telaQuiz/stranger.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/cobrakai.jpg" height="100%" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Cobra Kai</span>
+                                        <p class="job">7 perguntas para testar seus conhecimentos sobre a série!</p>
+                                        <button><a href="./telaQuiz/cobraKai.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+            <!-- <br><br> -->
+
+
+            <h2 class="title-genero">Animes:</h2>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="splide" id="splideAnimes">
+                        <div class="splide__track">
+                            <div class="splide__list" id="animes">
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/animes/shingeki.jpg" height="120px" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Attack on Titan
+                                        </span>
+                                        <p class="job">8 perguntas para testar seus conhecimentos sobre o anime!</p>
+                                        <button><a href="./telaQuizAnimes/shingeki.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/animes/onePiece.jpg" height="120px" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>One Piece
+                                        </span>
+                                        <p class="job">8 perguntas para testar seus conhecimentos sobre o anime!</p>
+                                        <button><a href="./telaQuizAnimes/onepiece.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/animes/jujutsu.png" height="120px" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Jujutsu Kaisen
+                                        </span>
+                                        <p class="job">8 perguntas para testar seus conhecimentos sobre o anime!</p>
+                                        <button><a href="./telaQuizAnimes/jujutsu.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 splide__slide p-4">
+                                    <div class="card">
+                                        <div class="card-border-top">
+                                        </div>
+                                        <div class="img">
+                                            <img src="img/animes/naruto.jpg" height="120px" width="100%"
+                                                style="padding-left: 20px; padding-right: 20px;" alt="">
+                                        </div>
+                                        <span>Naruto Shippuden
+                                        </span>
+                                        <p class="job">8 perguntas para testar seus conhecimentos sobre o anime!</p>
+                                        <button><a href="./telaQuizAnimes/naruto.html">Start
+                                            </a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <br>
+    </main>
+
+    </div>
+
+    <div id="footer"></div>
+
+
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script> -->
+    <script src="scripts/importSplide/splide.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="scripts/script.js" type="module"></script>
+    <script src="scripts/reset.js"></script>
+    <script src="scripts/splideSeries.js"></script>
+    <script src="scripts/splideFilms.js"></script>
+    <script src="scripts/splideAnimes.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+/* .nav-item{
+    background-color: rgb(36, 36, 36);
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-link{
+    color: rgb(175, 175, 175);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    background-color: #ff014d;
+    border-radius: 5px;
+}
+
+.nav-link:focus{
+    color: #ff014d;
+    border: solid 5px #ff014d;
+}
+
+.active{
+    color: #ff014d !important;
+    border: solid 3px #ff014d;
+} */
+
+
+.splide__slide{
+    background-color: #31313100 !important;
+    box-shadow: 10px -1px 0px 0px #353535;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 20px;
+}

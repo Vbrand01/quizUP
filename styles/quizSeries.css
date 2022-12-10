@@ -1,0 +1,87 @@
+
+body {
+    
+  gap: 5px;
+  background: rgb(61, 61, 61);
+}
+
+body h2 {
+  color: white;
+  margin-bottom: 10px !important;
+}
+
+.title-quiz{
+    margin: 50px 0px 5px 0px ;
+}
+
+
+main {
+  background: #252525;
+  padding: 10px;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 50px 0px ;
+  position: relative;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.spnQtd {
+  text-align: end;
+  color: #ff014d !important;
+  font-weight: 800; 
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button {
+  width: 100%;
+  text-align: start;
+  padding: 10px;
+  margin: 100px;
+  border: none;
+  border-radius: 5px !important;
+  cursor: pointer;
+  background-color: #ff014d;
+  color: white;
+}
+
+.finish {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.finish button {
+  text-align: center;
+}
+
+.button-desistir{
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+}
+
+.button-desistir:hover{
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #ff014d;
+}

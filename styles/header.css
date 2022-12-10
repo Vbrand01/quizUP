@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Russo+One&family=VT323&display=swap');
+
+.largura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo-header{
+    margin-top: 5px;
+    background-color: #ff014d;
+    border: inset 5px #6d092a;
+    height: 60px;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    border-radius: 20px 0px;
+    align-items: center;
+    padding: 40px !important;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-family: 'VT323', monospace !important;
+    box-shadow: #161616 20px 0px 0px 0px;
+}
+
+nav > a > img{
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px){
+    nav > a > img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .fundo-header{
+        margin-top: 0px;
+        border-radius: 0px 0px 20px 20px;
+    }
+}
