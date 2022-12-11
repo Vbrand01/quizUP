@@ -12,11 +12,20 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="scripts/importSplide/splide.min.css">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="./styles/header.css">
 </head>
 
 <body>
 
-    <div id="header"></div>
+    <div class="largura">
+        <div class="fundo-header">
+            <nav>
+                <a href="" style="color: rgb(238, 255, 0) !important"><img src="./img/icon-one.png" height="50px" alt="">quizUP</a>
+            </nav>
+        </div>
+    </div>
+
+
     <h2 class="title-page">Escolha e faça um quiz:</h2>
     <nav class="nav-menu">
         <a href="#series">Séries</a>
@@ -27,14 +36,9 @@
 
 
     <main>
-
-        <div class="cont"></div>
-        <div class="cont2"></div>
-
-        <br><br>
-
         <div class="container ajust">
             <h2 class="title-genero" id="series">Séries:</h2>
+            <h4 class="sobre">Série de televisão, série televisiva, série de TV ou telessérie é um tipo de programa televisivo ou programa online com um número pré-definido de capítulos por temporada, chamados episódios.</h4>
             <div class="row">
                 <div class="col-sm-12">
                     <div class="splide" id="splideSeries">
@@ -134,8 +138,9 @@
             </div>
 
             <br><br>
-<!-- 
+            <!-- 
             <h2 class="title-genero" id="filmes">Filmes:</h2>
+                        <h4 class="sobre">Filme, fita ou película é um produto audiovisual finalizado, com uma certa duração, para ser exibido no cinema, na televisão ou em algum outro veículo.</h4>
             <div class="row">
                 <div class="col-sm-12">
                     <div class="splide" id="splideFilms">
@@ -224,6 +229,7 @@
 
 
             <h2 class="title-genero">Animes:</h2>
+                        <h4 class="sobre">Anime, animê ou animé, se refere é uma animação desenhada à mão ou por computação gráfica do Japão. Fora do Japão e em inglês, anime refere-se à animação japonesa e refere-se especificamente à animação produzida no Japão.</h4>
             <div class="row">
                 <div class="col-sm-12">
                     <div class="splide" id="splideAnimes">
@@ -298,10 +304,13 @@
 
         </div>
 
-        <br>
+        <br><br>
+
     </main>
 
     </div>
+
+    <br>
 
     <div id="footer"></div>
 
